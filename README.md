@@ -1,0 +1,1 @@
+# Implementa-o-de-um-Pipeline-de-LLMOps-para-Avalia-o-e-Monitoramento-de-Modelos-de-Linguagem
