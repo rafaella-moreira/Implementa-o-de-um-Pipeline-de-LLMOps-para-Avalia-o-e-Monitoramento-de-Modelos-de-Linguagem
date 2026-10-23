@@ -118,7 +118,6 @@ def chamar_llm(pergunta, chave_prompt, temperatura=0.2, max_tentativas=3):
     cfg = config()
     prompt = PROMPTS[chave_prompt]
 
-    # Modo simulado: não usa a internet nem a API.
     if cfg["simulado"]:
         inicio = time.perf_counter()
         time.sleep(0.05)

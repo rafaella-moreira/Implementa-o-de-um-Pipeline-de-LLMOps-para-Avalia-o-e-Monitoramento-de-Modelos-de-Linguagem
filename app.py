@@ -11,7 +11,7 @@ st.caption(
 
 cfg = core.config()
 
-# ----------------------------- Barra lateral -------------------------------
+
 with st.sidebar:
     st.header("Configuração")
     st.markdown(f"**Modelo:** `{core.modelo_ativo()}`")
@@ -88,7 +88,7 @@ with aba_exec:
         st.markdown("**Resposta**")
         st.write(ultima["resposta"])
 
-# --------------------------- Aba 2: Bateria de testes ----------------------
+
 with aba_bateria:
     st.subheader("Rodar todas as perguntas com as versões escolhidas")
     st.write(
@@ -112,7 +112,7 @@ with aba_bateria:
                 st.error(f"{len(erros)} falharam:")
                 st.write(pd.DataFrame(erros, columns=["pergunta_id", "prompt", "erro"]))
 
-# ------------------------------ Aba 3: Avaliar -----------------------------
+
 with aba_aval:
     st.subheader("Avaliação manual (rubrica de 0 a 5)")
     with st.expander("Ver rubrica"):
@@ -151,7 +151,7 @@ with aba_aval:
             core.atualizar_nota_manual(sel, nota)
             st.rerun()
 
-# ------------------------- Aba 4: Comparar versões -------------------------
+
 with aba_comp:
     st.subheader("Comparação entre versões de prompt")
     log = core.carregar_log()
@@ -188,7 +188,7 @@ with aba_comp:
             "cobertura automática de palavras-chave."
         )
 
-# ------------------------------ Aba 5: Histórico ---------------------------
+
 with aba_hist:
     st.subheader("Histórico completo (rastreabilidade)")
     log = core.carregar_log()
