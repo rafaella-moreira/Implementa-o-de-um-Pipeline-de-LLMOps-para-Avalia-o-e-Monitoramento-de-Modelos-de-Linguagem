@@ -1,0 +1,9 @@
+id,pergunta,resposta_esperada,palavras_chave
+1,Explique o que é uma árvore em grafos.,"Uma árvore é um grafo conexo e sem ciclos (acíclico). Com n vértices, ela possui exatamente n-1 arestas.",conexo;cicl;vértices;arestas
+2,O que é complexidade de tempo de um algoritmo?,"Mede como o tempo de execução cresce em função do tamanho da entrada, normalmente expressa em notação assintótica como Big-O.",entrada;cresc;notação;tempo
+3,Qual é a diferença entre pilha e fila?,"Pilha segue LIFO (o último a entrar é o primeiro a sair); fila segue FIFO (o primeiro a entrar é o primeiro a sair).",lifo;fifo;último;primeiro
+4,O que é recursão em programação?,"Técnica em que uma função chama a si mesma para resolver subproblemas menores, exigindo um caso base para parar.",chama a si;caso base;subproblema
+5,O que é um sistema operacional?,"Software que gerencia os recursos do hardware (processador, memória, dispositivos), controla processos e fornece interface para usuários e programas.",hardware;processos;memória;recursos
+6,Qual é a diferença entre TCP e UDP?,"TCP é orientado a conexão e confiável (garante entrega e ordem); UDP não tem conexão nem garantia de entrega, mas é mais rápido e leve.",conexão;confiáv;entrega;rápid
+7,O que é normalização em bancos de dados?,"Processo de organizar tabelas para reduzir redundância e evitar anomalias, aplicando formas normais (1FN, 2FN, 3FN).",redundância;anomalia;formas normais;tabelas
+8,O que é o Git e para que serve?,"Sistema de controle de versão distribuído que registra o histórico de alterações do código e permite trabalhar com ramificações (branches) e colaboração.",versão;histórico;branch;código
