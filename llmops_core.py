@@ -104,10 +104,10 @@ def cobertura_palavras_chave(resposta, palavras_chave):
 
 
 def _resposta_simulada(pergunta, chave_prompt):
-    """Resposta fictícia, só para testar o fluxo sem gastar a API."""
-    base = f"[SIMULADO] Resposta de teste para: {pergunta}"
+    """Resposta só para testar o fluxo sem gastar a API."""
+    base = f"Resposta de teste para: {pergunta}"
     if chave_prompt != "A":
-        base += " Exemplo simples: (conteúdo fictício apenas para testar o fluxo)."
+        base += " Exemplo simples: "
     return base
 
 
